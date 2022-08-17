@@ -25,6 +25,7 @@ These instructions will get you a copy of the project up and running on your loc
 - Run the **main.py** file.
 
 - **MOVE HAND** to move the mouse pointer.
+- **SNAP** to close/terminate the program.
 
 - click **THUMB** and **POINTER** finger to click the mouse.
 
