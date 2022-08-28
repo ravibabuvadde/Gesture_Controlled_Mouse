@@ -10,7 +10,7 @@ screen_width, screen_height = pag.size()
 mpDraw = mp.solutions.drawing_utils
 mpHands = mp.solutions.hands
 hands = mpHands.Hands(max_num_hands=1)
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 
 
@@ -54,7 +54,7 @@ def main():
                     pag.click()
                     break
             if break_out:
-                break
+                break   
 
         cv2.imshow('Gesture Controlled Mouse', img)
         cv2.waitKey(1)
