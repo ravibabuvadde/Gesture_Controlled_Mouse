@@ -15,7 +15,7 @@
                     break_out = True
                     break
 
-                # click if thumb finger is close to index finger
+                # click if thumb finger is close to index fingerggjgjgjgjjjgjj
                 if abs(math.sqrt((pointx * screen_width - thumbx * screen_width) ** 2 + (
                         pointy * screen_height - thumby * screen_height) ** 2)) < 50:
                     pag.click()
