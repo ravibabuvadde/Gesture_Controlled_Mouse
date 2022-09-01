@@ -3,7 +3,7 @@ import cv2
 import mediapipe as mp
 import pyautogui as pag
 import time
-
+# sad this is useless comment
 
 screen_width, screen_height = pag.size()
 
